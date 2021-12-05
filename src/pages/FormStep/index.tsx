@@ -31,7 +31,7 @@ export const FormStep=()=>{
 return(
     <Theme>
         <styles.container>
-            <p>Passo 1/3 -{state.name}</p>
+            <p>Passo 1/3 </p>
             <h1>Vamos começar com seu nome</h1>
             <p>Preencha o campo abaixo com seu nome completo.</p>
 

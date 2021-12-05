@@ -18,6 +18,8 @@ hr{
 }
 label{
     font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
     input{
         display: block;
         margin-top: 7px;
@@ -42,6 +44,18 @@ button{
     border-radius: 30px;
     cursor: pointer;
     margin-top: 20px;
+}
+.BackButton{
+    background-color: #25CD89;
+    font-size: 14px;
+    color:#FFF;
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 `

@@ -1,11 +1,15 @@
 import React from 'react';
+import { FormProvider } from './contexts/FormContext';
 
 
 import {Routes }from './routes';
 
 function App() {
   return (
-    <Routes />
+   < FormProvider>
+     <Routes />
+   </FormProvider>
+   
   );
 }
 

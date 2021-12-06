@@ -1,5 +1,5 @@
 
-import React, { ChangeEvent, useEffect } from 'react'
+import React, { ChangeEvent, useEffect } from 'react';
 import { Theme } from '../../components/theme'
 import { useHistory,Link } from 'react-router-dom'
 import * as styles from './styles'
@@ -16,7 +16,7 @@ export const FormStep3=()=>{
         }else{
         dispatch({
             type:FormActions.setCurrentStep,
-            payload:2
+            payload:3
         })
     }
     },[])
